@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning some maths</title>
+</head>
+<body>
+<h1>{{number}} Times Table</h1>
+<br>
+{% for x in range(1, 11): %}
+<h4>{{x}} x {{number}} = {{number * x}}</h4><br>
+{% endfor %}
+</body>
+</html>
